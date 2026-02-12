@@ -165,8 +165,7 @@ function initFAQ() {
 // お問い合わせフォームのバリデーション
 // ========================================
 
-function initContactForm() {
-    return;    
+function initContactForm() {   
     const form = document.getElementById('contactForm');
     const nameInput = document.getElementById('name');
     const emailInput = document.getElementById('email');

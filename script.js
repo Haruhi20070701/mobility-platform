@@ -166,6 +166,7 @@ function initFAQ() {
 // ========================================
 
 function initContactForm() {
+    return;    
     const form = document.getElementById('contactForm');
     const nameInput = document.getElementById('name');
     const emailInput = document.getElementById('email');

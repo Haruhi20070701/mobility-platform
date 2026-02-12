@@ -82,7 +82,7 @@ function initSmoothScroll() {
             
             // # のみの場合はページトップへ
             if (href === '#') {
-                e.preventDefault();
+                e.// preventDefault();
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
@@ -93,7 +93,7 @@ function initSmoothScroll() {
             // 該当する要素が存在する場合
             const target = document.querySelector(href);
             if (target) {
-                e.preventDefault();
+                e.// preventDefault();
                 
                 // ヘッダーの高さを考慮したオフセット
                 const headerHeight = document.getElementById('header').offsetHeight;
@@ -185,8 +185,8 @@ function initContactForm() {
     privacyCheckbox.addEventListener('change', () => validatePrivacy());
     
     // フォーム送信時の処理
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
+    form.// addEventListener('submit', (e) => {
+        e.// preventDefault();
         
         // 全てのバリデーションを実行
         const isNameValid = validateName();

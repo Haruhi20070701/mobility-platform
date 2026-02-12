@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initSmoothScroll();
     initScrollAnimations();
     initFAQ();
-    initContactForm();
+ // initContactForm();
     initBackToTop();
 });
 
